@@ -72,9 +72,13 @@ const Markdown = styled(ReactMarkdown)`
 
   blockquote {
     margin: 20px 0 30px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px;
     background: #fdf6e3;
     border-left: 6px solid #ffe9ae;
+
+    p {
+      margin-bottom: 0;
+    }
   }
 
   a {

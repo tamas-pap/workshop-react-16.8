@@ -215,6 +215,62 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+      {
+        id: 'the-context-api',
+        title: 'The Context API',
+        sections: [
+          {
+            type: MARKDOWN,
+            file: 'the-context-api.md',
+          },
+        ],
+      },
+      {
+        id: 'using-context-type',
+        title: 'Using context type',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '819r3k5m7j',
+          },
+        ],
+      },
+      {
+        id: 'using-the-context-consumer',
+        title: 'Using context consumer',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: 'pjz2wpl6r7',
+          },
+        ],
+      },
+      {
+        id: 'implement-a-locale-context',
+        title: 'Implement a locale context',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '21xrv13xl0',
+          },
+        ],
+      },
+      {
+        id: 'react-memo',
+        title: 'React memo',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '5k4vw9m1ln',
+            size: 50,
+          },
+          {
+            type: MARKDOWN,
+            file: 'react-memo.md',
+            size: 50,
+          },
+        ],
+      },
     ],
   },
 ];
