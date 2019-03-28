@@ -36,7 +36,7 @@ class ExampleComponent extends Component {
 - with the upcoming async rendering, rendering may be interrupted before it completes, causing `componentWillUnmount` not to be called, causing a memory leak.
 
 >
-> __NOTE__
+> __Note__
 > There is no guarantee that `componentWillMount` and `componentWillUnmount` are not always paired. Only once `componentDidMount` has been called does React guarantee that `componentWillUnmount` will later be called for clean up.
 
 For this reason, the recommended way to add listeners/subscriptions is to use the `componentDidMount` lifecycle:

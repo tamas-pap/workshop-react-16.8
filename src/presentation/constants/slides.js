@@ -95,6 +95,86 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+      {
+        id: 'common-problems-with-derived-state',
+        title: 'Common problems with derived state',
+        sections: [
+          {
+            type: MARKDOWN,
+            file: 'common-problems-with-derived-state.md',
+          },
+        ],
+      },
+      {
+        id: 'unconditionally-copying-props-to-state',
+        title: 'Unconditionally copying props to state',
+        sections: [
+          {
+            type: MARKDOWN,
+            file: 'unconditionally-copying-props-to-state.md',
+          },
+        ],
+      },
+      {
+        id: 'unconditionally-copying-props-to-state-demo',
+        title: 'Unconditionally copying props to state - Demo',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: 'ol9305pr2q',
+          },
+        ],
+      },
+      {
+        id: 'erasing-state-when-props-change',
+        title: 'Erasing state when props change',
+        sections: [
+          {
+            type: MARKDOWN,
+            file: 'erasing-state-when-props-change.md',
+          },
+        ],
+      },
+      {
+        id: 'erasing-state-when-props-change-demo',
+        title: 'Erasing state when props change - Demo',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: 'ym12q7lvm9',
+          },
+        ],
+      },
+      {
+        id: 'preferred-alternatives-to-derived-state',
+        title: 'Preferred alternatives to derived state',
+        sections: [
+          {
+            type: MARKDOWN,
+            file: 'preferred-alternatives-to-derived-state.md',
+          },
+        ],
+      },
+      {
+        id: 'use-derived-state-for-memoization',
+        title: 'Use derived state for memoization',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '4l3onvw3ow',
+          },
+        ],
+      },
+      {
+        id: 'use-memoized-function',
+        title: 'Use a memoized function (better alternative)',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '541jkl8pnk',
+          },
+        ],
+      },
     ],
   },
 ];

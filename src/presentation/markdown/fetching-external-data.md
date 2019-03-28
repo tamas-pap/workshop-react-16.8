@@ -40,7 +40,7 @@ class ExampleComponent extends Component {
 - with the upcoming async rendering mode `componentWillMount` could be called multiple times, which results in multiple server calls in case the rendering is canceled.
 
 >
-> __NOTE__
+> __Note__
 >
 > While `componentDidMount` and `componentWillUnmount` are never called with server side rendering, `componentWillMount` is.
 

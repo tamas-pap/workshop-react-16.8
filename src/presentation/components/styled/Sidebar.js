@@ -1,26 +1,24 @@
 import styled, { css } from 'styled-components';
-import { transparentize, darken } from 'polished';
+import { transparentize } from 'polished';
 import { NavLink } from 'react-router-dom';
 
 export const SidebarListTitle = styled.span`
   display: block;
   margin: 0 0 10px 15px;
   font-weight: ${props => props.theme.fontWeightMedium};
-  color: #61dafb;
+  font-size: 16px;
+  color: #10a2ca;
 `;
 
 export const SidebarListItem = styled(NavLink)`
   display: block;
+  margin-bottom: 6px;
   padding: 3px 25px;
   line-height: 20px;
-  font-size: 13px;
-
-  &:hover {
-    color: #fff;
-  }
+  font-size: 14px;
 
   &.active {
-    color: #61dafb;
+    color: #10a2ca;
   }
 `;
 
@@ -33,14 +31,13 @@ export const Sidebar = styled.div`
   top: 0;
   left: 0;
   z-index: 1000;
-  width: 300px;
+  width: 400px;
   height: 100vh;
   padding: 20px 0;
   overflow-y: auto;
-  background-color: ${props => darken(0.07, props.theme.grayBase)};
+  background-color: #fff;
   box-shadow: 0 4px 16px ${transparentize(0.9, '#000')};
-  color: ${transparentize(0.2, '#fff')};
-  transform: translateX(-320px);
+  transform: translateX(-420px);
   transition: transform 0.3s ease-out;
 
   ${props =>

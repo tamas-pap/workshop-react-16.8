@@ -21,7 +21,8 @@ const theme = {
 
   fontWeightLight: 300,
   fontWeightNormal: 400,
-  fontWeightMedium: 500,
+  fontWeightMedium: 600,
+  fontWeightBold: 700,
 };
 
 export default theme;
