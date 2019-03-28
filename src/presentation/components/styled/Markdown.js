@@ -9,18 +9,55 @@ const Markdown = styled(ReactMarkdown)`
   overflow: auto;
   line-height: 1.5;
 
-  ul,
-  ol {
-    margin: 0 0 20px 15px;
+  h1 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin: 30px 0 15px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 30px 0 10px;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+  }
+
+  h5 {
+    font-size: 14px;
+    margin: 20px 0 10px;
+  }
+
+  h6 {
+    font-size: 12px;
+    margin: 20px 0 10px;
   }
 
   p {
-    line-height: 1.6;
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+
+  ul,
+  ol {
+    margin: 20px 0 30px 15px;
+  }
+
+  li {
+    margin-bottom: 6px;
+    font-size: 16px;
   }
 
   code:not(.hljs) {
     padding: 2px 4px;
-    background-color: #ffe9ae;
+    background-color: #fff2cf;
+    font-size: 16px;
   }
 
   pre {
@@ -28,12 +65,14 @@ const Markdown = styled(ReactMarkdown)`
 
     code {
       padding: 15px;
+      border-radius: 8px;
+      font-size: 16px;
     }
   }
 
   blockquote {
-    margin: 0 0 20px;
-    padding: 4px 10px 4px 20px;
+    margin: 20px 0 30px;
+    padding: 10px 10px 10px 20px;
     background: #fdf6e3;
     border-left: 6px solid #ffe9ae;
   }
