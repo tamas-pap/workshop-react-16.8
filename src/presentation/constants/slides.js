@@ -175,6 +175,46 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+      {
+        id: 'the-problem-with-hocs',
+        title: 'The problem with HOCs',
+        sections: [
+          {
+            type: MARKDOWN,
+            file: 'the-problem-with-hocs.md',
+          },
+        ],
+      },
+      {
+        id: 'with-theme-hoc',
+        title: 'A simple withTheme HOC',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '6ymj9wmkrk',
+          },
+        ],
+      },
+      {
+        id: 'implement-position-hocs',
+        title: 'Implement the scrollPosition and mousePosition HOCs',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '04krownvln',
+          },
+        ],
+      },
+      {
+        id: 'render-props-to-the-rescue',
+        title: 'Render props to the rescue',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: 'ry9m2y1qq',
+          },
+        ],
+      },
     ],
   },
 ];
