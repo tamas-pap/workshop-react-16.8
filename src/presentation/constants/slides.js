@@ -3,7 +3,7 @@ import { MARKDOWN, CODE_SANDBOX } from './sectionTypes';
 
 export const SLIDES_BY_GROUPS = [
   {
-    title: 'What is new in React 16.8',
+    title: "What's new in React",
     slides: [
       {
         id: 'introduction',
@@ -15,6 +15,11 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+    ],
+  },
+  {
+    title: 'Alternatives for deprecated methods',
+    slides: [
       {
         id: 'deprecated-lifecycle-methods',
         title: 'Deprecated lifecycle methods',
@@ -95,6 +100,11 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+    ],
+  },
+  {
+    title: 'You probably do not need derived state',
+    slides: [
       {
         id: 'common-problems-with-derived-state',
         title: 'Common problems with derived state',
@@ -175,6 +185,11 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+    ],
+  },
+  {
+    title: 'HOCs vs. render props',
+    slides: [
       {
         id: 'the-problem-with-hocs',
         title: 'The problem with HOCs',
@@ -215,6 +230,11 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+    ],
+  },
+  {
+    title: 'The context API',
+    slides: [
       {
         id: 'the-context-api',
         title: 'The Context API',
@@ -255,6 +275,11 @@ export const SLIDES_BY_GROUPS = [
           },
         ],
       },
+    ],
+  },
+  {
+    title: 'More awesomeness',
+    slides: [
       {
         id: 'react-memo',
         title: 'React memo',

@@ -17,6 +17,7 @@ const theme = {
   bodyBackgroundColor: '#fff',
 
   fontFamilyBase: 'Open Sans, Helvetica Neue, Helvetica, sans-serif',
+  fontFamilyMonospace: 'Inconsolata, monospace',
   fontSizeBase: '14px',
 
   fontWeightLight: 300,

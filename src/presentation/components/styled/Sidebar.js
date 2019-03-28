@@ -12,7 +12,7 @@ export const SidebarListTitle = styled.span`
 
 export const SidebarListItem = styled(NavLink)`
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
   padding: 3px 25px;
   line-height: 20px;
   font-size: 14px;
@@ -39,6 +39,7 @@ export const Sidebar = styled.div`
   box-shadow: 0 4px 16px ${transparentize(0.9, '#000')};
   transform: translateX(-420px);
   transition: transform 0.3s ease-out;
+  font-family: ${props => props.theme.fontFamilyMonospace};
 
   ${props =>
     props.isOpen &&
