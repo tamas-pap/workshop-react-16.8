@@ -298,6 +298,51 @@ export const SLIDES_BY_GROUPS = [
       },
     ],
   },
+  {
+    title: 'Hooks',
+    slides: [
+      {
+        id: 'developing-without-hooks',
+        title: 'Developing without hooks',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: 'l347lv6xjq',
+          },
+        ],
+      },
+      {
+        id: 'developing-with-hooks',
+        title: 'Developing with hooks',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '4zxlzxn037',
+          },
+        ],
+      },
+      {
+        id: 'hooks-counter-example',
+        title: 'Counter example',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: 'vvvy6q15j7',
+          },
+        ],
+      },
+      {
+        id: 'hooks-timer-example',
+        title: 'Timer example',
+        sections: [
+          {
+            type: CODE_SANDBOX,
+            codeSandboxId: '2ppqmy434p',
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const SLIDES = flatten(map(SLIDES_BY_GROUPS, 'slides'));
